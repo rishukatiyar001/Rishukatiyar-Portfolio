@@ -37,8 +37,8 @@ This application requires Node.js v18.13+.
 
 ```bash
 npm install -g @angular/cli
-git clone https://github.com/marckevinflores/kevinflor.es.git
-cd kevinflor.es
+git clone https://github.com/rishukatiyar001/Rishukatiyar-Portfolio.git
+cd Rishukatiyar-Portfolio
 npm install
 ```
 
