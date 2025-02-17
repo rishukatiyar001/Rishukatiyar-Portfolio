@@ -1,4 +1,4 @@
-# [kevinflor.es](https://kevinflor.es)
+# [RishuKatiyar](https://github.com/rishukatiyar001)
 
 
 <picture>
@@ -10,7 +10,7 @@
 ## Stack
 - **Framework**: [Angular](https://angular.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Deployment**: [AWS S3](https://aws.amazon.com/s3/)
+<!-- - **Deployment**: [AWS S3](https://aws.amazon.com/s3/) -->
 
 ## Features 📋
 ⚡️ Navbar Glassmorphism\
@@ -49,7 +49,3 @@ Before starting the application, you need to rename the files inside the `src/en
 
 Wait to compile and go to http://localhost:4200 after compile finish
 
-
-## Previous versions
-
-my previous versions of this website can be found at [marckevinflores/prev-websites](https://github.com/marckevinflores/prev-websites)

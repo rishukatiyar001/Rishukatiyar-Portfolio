@@ -38,8 +38,8 @@ export class App implements OnInit {
     if(environment.production){
       const script = this.renderer.createElement('script');
       script.defer = true;
-      script.src = 'https://cloud.umami.is/script.js';
-      script.setAttribute('data-website-id', environment.umamiWebsiteId);
+      //script.src = 'https://cloud.umami.is/script.js';
+      // script.setAttribute('data-website-id', environment.umamiWebsiteId);
       this.renderer.appendChild(this.document.head, script);
     }
   }

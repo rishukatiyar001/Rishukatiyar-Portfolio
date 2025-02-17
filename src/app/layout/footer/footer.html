@@ -1,0 +1,29 @@
+<div class="border-t border-neutral-200 dark:border-neutral-700 max-w-screen-lg mx-auto p-2">
+    <div class="flex justify-between py-2 text-gray-900 dark:text-white">
+      
+      <!-- Left Section: Logo, Profile Info, and Social Links -->
+      <div class="flex items-center gap-3">
+        <logo />
+        <span>{{ profile().name }} - {{ profile().pronouns }}</span>
+  
+        <!-- Social Links -->
+        @for (s of socialLink(); track $index) {
+          <a [href]="s.link" target="_blank" [attr.aria-label]="s.name" [attr.title]="s.name">
+            <icon
+              [path]="s.path"
+              [size]="25"
+              [iconClass]="'hover:fill-[' + s.color + '] dark:hover:fill-[' + s.color + ']'"
+            />
+          </a>
+        }
+      </div>
+  
+      <!-- Right Section: Clock -->
+      <div class="flex items-center gap-1">
+        <icon [path]="clockIcon" [size]="20" />
+        <span>{{ currentTime() }}</span>
+      </div>
+  
+    </div>
+  </div>
+  

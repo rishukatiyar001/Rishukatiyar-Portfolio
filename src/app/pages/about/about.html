@@ -1,0 +1,28 @@
+<section class="flex flex-col max-w-screen-lg justify-between mx-auto gap-16 dark:text-gray-200 overflow-y-hidden">
+    <div class="flex flex-col gap-5">
+        <h1 class="text-2xl font-semibold dark:text-white">About Me</h1>
+        <p class="justify-start">Welcome to my portfolio! I'm Rishu Katiyar, a passionate and enthusiastic software engineer eager to create innovative and user-friendly applications.
+        I believe in writing clean, efficient code and continuously improving my skills to build impactful technology. 🚀</p>
+
+    <!-- About Details code -->
+        <p *ngFor="let a of aboutDetails"><b class="dark:text-white text-black">{{a.title}}</b><br />{{a.desc}}
+        </p>
+    </div>
+    <!-- <div class="flex flex-col gap-5">
+    <h1 class="text-2xl font-semibold dark:text-white">Activity:</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <music/>
+      <watch/>
+    </div>
+    </div> -->
+  
+  <div class="flex flex-col gap-5">
+  <h1 class="text-2xl font-semibold dark:text-white">Contact Information:</h1>
+    @for(c of contactInfo; track $index){
+      <p>
+        <b class="dark:text-white text-black ">{{c.title}}:</b><br />
+        <a [href]="c.link" class="hover:underline" target="_blank">{{c.desc}}</a>
+      </p>
+    }
+  </div>
+  </section>

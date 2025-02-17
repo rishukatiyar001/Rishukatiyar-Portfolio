@@ -1,12 +1,14 @@
 import { ProfileSchema } from "@data/schema/profile.schema";
 
 const profileData: ProfileSchema = {
-  name: 'Marc Kevin Flores',
-  bio: 'Enthusiastic software engineer from Philippines',
+  name: 'Rishu katiyar',
+  bio: ' software engineer ',
   resumeLink: `cv.pdf`,
   greetings: [
-    'Hello, world',
-    'Kumusta, mundo'
+    "Heyy",
+     "Wellcome to my portfolio"
+    // 'Hello, world',
+    // 'Rishu, mundo'
   ],
   pronouns: 'He/him/his'
 

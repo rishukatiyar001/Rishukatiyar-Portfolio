@@ -47,7 +47,7 @@ import { Loader } from '@shared/components/loader/loader';
       }@placeholder {
         <loader/>
       }
-`
+  `
 })
 export class FeatureProject{
   projectService = inject(ProjectService)

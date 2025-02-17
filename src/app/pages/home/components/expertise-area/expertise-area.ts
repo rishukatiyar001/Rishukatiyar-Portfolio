@@ -10,7 +10,7 @@ import { ExpertiseAreaSchema } from '@data/schema/expertise-area.schema';
   standalone: true,
   template: `
     <section class="mt-16">
-      <p class="mb-8 text-2xl text-gray-900 dark:text-white inline-block">Expertise Area</p>
+      <p class="mb-8 text-2xl text-gray-900 dark:text-white inline-block">Skills </p>
       <div class="max-w-screen-xl grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start group" spot-light>
         @for (s of services(); track $index) {
         <div
@@ -22,7 +22,7 @@ import { ExpertiseAreaSchema } from '@data/schema/expertise-area.schema';
             </div>
             <div class="flex flex-col gap-3 text-center">
               <icon [path]="s.icon" [size]="50" class="mx-auto"/>
-              <span class="text-xl font-semibold dark:text-white">{{s.percent}}</span>
+              <!-- <span class="text-xl font-semibold dark:text-white">{{s.percent}}</span> -->
               <span class="text-gray-800 dark:text-gray-300">{{s.name}}</span>
             </div>
           </div>

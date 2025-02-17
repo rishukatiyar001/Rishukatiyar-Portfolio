@@ -6,18 +6,26 @@ import { Intro } from '@pages/home/components/intro/intro';
 import { LanguageTools } from '@pages/home/components/language-tools/language-tools';
 import { InWork } from '@pages/home/components/in-work/in-work';
 import { Loader } from '@shared/components/loader/loader';
+import { FeatureProject } from "../project/components/feature-project";
+import { OtherProject } from "../project/components/other-project";
 @Component({
   selector: 'home-page',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
-  imports: [ExpertiseArea, Intro, LanguageTools, InWork, Loader],
+  imports: [ExpertiseArea, Intro, LanguageTools, InWork, Loader, FeatureProject, OtherProject],
   template: `
     @defer(on immediate){
       <intro/>
       <expertise-area/>
       <language-tools/>
-      <in-work/>
+      <h1
+      class="text-brand-primary mt-2 text-center text-3xl font-semibold tracking-tight lg:text-4xl lg:leading-snug dark:text-white">
+      Projects
+    </h1>
+    <feature-project/>
+    <other-project/>
+      <!-- <in-work/> -->
     }@placeholder {
       <loader/>
     }
@@ -28,20 +36,18 @@ export class HomePage {
   constructor() {
     this.metaService.setMetaTags(
       `Home - ${profileData.name}`,
-      'Dive into my portfolio, a passionate software engineer based in the Philippines. Explore the intricacies of my journey, from personal details to exciting projects. Join me on this virtual exploration of technology, creativity, and more.',
+      'A developer, a problem solver, and a tech enthusiast from India. Explore my work, ideas, and the exciting world of software engineering!',
       [
-        'marc kevin flores',
-        'marc kevin',
-        'marckevinflores',
+        'Rishu katiyar',
         'software engineer',
-        'philippines',
+        'India',
         'bio',
         'developer',
         'portfolio',
         'development',
-        'android',
+        'Api',
         'web',
-        'ios',
+        'devops',
       ]
     );
   }

@@ -12,7 +12,7 @@ type MetaImageStyle = 'summary_large_image' | 'summary';
 
 export class MetaService {
   public defaultImage: string = './assets/image/meta-image.jpg'
-  public urlKeywords: string[] = ['blog/', 'project/'];
+  public urlKeywords: string[] = [ 'project/']; //'blog/',
   private meta = inject(Meta);
   private router = inject(Router);
   private title = inject(Title);
@@ -43,8 +43,8 @@ export class MetaService {
       {name: 'twitter:title', content: title},
       {name: 'twitter:description', content: description},
       {name: 'twitter:image', content: image || this.defaultImage},
-      {name: 'twitter:site', content: '@marckevinflores'},
-      {name: 'twitter:creator', content: '@marckevinflores'},
+      {name: 'twitter:site', content: ''},
+      {name: 'twitter:creator', content: ''},
     ])
   }
 }

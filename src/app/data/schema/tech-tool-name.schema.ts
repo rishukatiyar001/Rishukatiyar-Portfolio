@@ -34,3 +34,7 @@ export type TechToolName =
   | 'Figma'
   | 'Jest'
   | 'Strapi'
+  | 'SQL-Server'  // Fixed syntax
+  | 'Python'      // Fixed syntax
+  | 'Devops'      // Fixed syntax
+  | 'C++';   
