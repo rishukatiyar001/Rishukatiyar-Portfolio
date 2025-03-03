@@ -62,3 +62,34 @@ cd Rishukatiyar-Portfolio
 
 # Install dependencies
 npm install
+
+🛠️ Configure Environment
+1️⃣ Navigate to src/environments/
+2️⃣ Rename environment.ts.bak → environment.ts
+3️⃣ Rename environment.development.ts.bak → environment.development.ts
+
+
+🚀 Start the Development Server
+bash
+Copy
+Edit
+npm start
+🔹 Wait for it to compile, then open http://localhost:4200
+
+
+🤝 Contributing
+🎯 Want to contribute?
+
+🍴 Fork the repository
+🌿 Create a new branch → git checkout -b feature-branch
+📝 Make your changes & commit → git commit -m "Your message"
+🚀 Push to the branch → git push origin feature-branch
+✅ Open a Pull Request
+
+
+⭐ Show Your Support!
+If you like this project, don't forget to:
+💙 Star the repo → ⭐
+🐦 Follow me on GitHub → Rishu Katiyar
+
+🌟 Live Demo → Click Here 🚀
