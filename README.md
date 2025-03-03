@@ -1,55 +1,64 @@
-# [RishuKatiyar](https://github.com/rishukatiyar001)
+# 🚀 [Rishu Katiyar](https://github.com/rishukatiyar001)
 
-Live Demo: [Click Here 🚀](https://rishukatiyar-portfolio.vercel.app/)
-<br>
+🌍 **Live Demo** → [Click Here 🚀](https://rishukatiyar-portfolio.vercel.app/)  
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./preview-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./preview.png">
-  <img alt="Website preview" src="./preview.png">
-</picture>
+---
 
-## Stack
-- **Framework**: [Angular](https://angular.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-<!-- - **Deployment**: [AWS S3](https://aws.amazon.com/s3/) -->
+## 📸 Preview
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./preview-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./preview.png">
+    <img alt="Website Preview" src="./preview.png" width="100%">
+  </picture>
+</p>
 
-## Features 📋
-⚡️ Navbar Glassmorphism\
-⚡️ Toolbar Color Theme Selector\
-⚡️ Light and Dark Mode\
-⚡️ Spotlight Glow Hover Card\
-⚡️ Devicon with Tooltip\
-⚡️ Spotify Music API\
-⚡️ Trakt Watch API
+---
 
-## Sections 📚
-✔️ Intro Image\
-✔️ Expertise Area\
-✔️ Languages and Tools\
-✔️ In my work\
-✔️ About\
-✔️ Projects\
-✔️ Uses
+## 🛠️ Stack
+- ⚡ **Framework** → [Angular](https://angular.dev/)
+- 🎨 **Styling** → [Tailwind CSS](https://tailwindcss.com/)
+<!-- - ☁️ **Deployment** → [AWS S3](https://aws.amazon.com/s3/) -->
 
+---
 
-## Running Locally
+## ✨ Features 📋
+✔️ Navbar with **Glassmorphism Effect**  
+✔️ Toolbar with **Color Theme Selector**  
+✔️ **Light & Dark Mode** Support  
+✔️ **Spotlight Glow** Hover Card  
+✔️ **Devicon with Tooltip**  
+✔️ **Spotify Music API Integration**  
+✔️ **Trakt Watch API**  
 
-This application requires Node.js v18.13+.
+---
 
+## 📂 Sections 📚
+📌 **Intro Image**  
+📌 **Expertise Area**  
+📌 **Languages & Tools**  
+📌 **In My Work**  
+📌 **About Me**  
+📌 **Projects**  
+📌 **Uses**  
+
+---
+
+## ⚡ Running Locally
+
+### **📌 Prerequisites**
+This application requires **Node.js v18.13+**  
+
+### **🚀 Installation Steps**
 ```bash
+# Install Angular CLI globally (if not installed)
 npm install -g @angular/cli
+
+# Clone the repository
 git clone https://github.com/rishukatiyar001/Rishukatiyar-Portfolio.git
+
+# Navigate to the project directory
 cd Rishukatiyar-Portfolio
+
+# Install dependencies
 npm install
-```
-
-Before starting the application, you need to rename the files inside the `src/environments` directory. Remove the `.bak` file extension from `environment.ts.bak` and `environment.development.ts.bak`. Then run:
-```bash
- npm start
-```
-
-Wait to compile and go to http://localhost:4200 after compile finish
-
-Live Demo: [Click Here 🚀](https://rishukatiyar-portfolio.vercel.app/)
-
