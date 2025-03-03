@@ -1,6 +1,7 @@
 # [RishuKatiyar](https://github.com/rishukatiyar001)
 
 Live Demo: [Click Here 🚀](https://rishukatiyar-portfolio.vercel.app/)
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./preview-dark.png">
@@ -49,4 +50,6 @@ Before starting the application, you need to rename the files inside the `src/en
 ```
 
 Wait to compile and go to http://localhost:4200 after compile finish
+
+Live Demo: [Click Here 🚀](https://rishukatiyar-portfolio.vercel.app/)
 
