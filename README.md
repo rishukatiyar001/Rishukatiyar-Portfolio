@@ -15,32 +15,28 @@
 
 ---
 
-## 🛠️ Stack
+## 🛠️ Tech Stack
 - ⚡ **Framework** → [Angular](https://angular.dev/)
 - 🎨 **Styling** → [Tailwind CSS](https://tailwindcss.com/)
-<!-- - ☁️ **Deployment** → [AWS S3](https://aws.amazon.com/s3/) -->
+<!-- - ☁️ **Deployment** → [Vercel](https://vercel.com/) -->
 
 ---
 
-## ✨ Features 📋
-✔️ Navbar with **Glassmorphism Effect**  
-✔️ Toolbar with **Color Theme Selector**  
-✔️ **Light & Dark Mode** Support  
-✔️ **Spotlight Glow** Hover Card  
+## ✨ Features
+✔️ **Glassmorphism Navbar**  
+✔️ **Toolbar Color Theme Selector**  
+✔️ **Light & Dark Mode Support**  
+✔️ **Spotlight Glow Hover Card**  
 ✔️ **Devicon with Tooltip**  
-✔️ **Spotify Music API Integration**  
-✔️ **Trakt Watch API**  
 
 ---
 
-## 📂 Sections 📚
+## 📂 Sections
 📌 **Intro Image**  
 📌 **Expertise Area**  
-📌 **Languages & Tools**  
-📌 **In My Work**  
-📌 **About Me**  
+📌 **Languages & Tools**
+📌 **About Me** 
 📌 **Projects**  
-📌 **Uses**  
 
 ---
 
@@ -62,22 +58,16 @@ cd Rishukatiyar-Portfolio
 
 # Install dependencies
 npm install
+```
 
-🛠️ Configure Environment
+
+### **🛠️ Configure Environment**
 1️⃣ Navigate to src/environments/
 2️⃣ Rename environment.ts.bak → environment.ts
 3️⃣ Rename environment.development.ts.bak → environment.development.ts
 
 
-🚀 Start the Development Server
-bash
-Copy
-Edit
-npm start
-🔹 Wait for it to compile, then open http://localhost:4200
-
-
-🤝 Contributing
+### **🛠️ 🤝 Contributing**
 🎯 Want to contribute?
 
 🍴 Fork the repository
@@ -86,10 +76,10 @@ npm start
 🚀 Push to the branch → git push origin feature-branch
 ✅ Open a Pull Request
 
+### **⭐ Show Your Support!**
 
-⭐ Show Your Support!
 If you like this project, don't forget to:
 💙 Star the repo → ⭐
 🐦 Follow me on GitHub → Rishu Katiyar
 
-🌟 Live Demo → Click Here 🚀
+🌟 Live Demo →  [Click Here 🚀](https://rishukatiyar-portfolio.vercel.app/) 
